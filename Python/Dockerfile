@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.5
 LABEL maintainer Archidote
 
 RUN apt-get update && \
